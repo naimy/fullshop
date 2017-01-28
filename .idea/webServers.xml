@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="4944f021-07b1-460a-adaa-06177e5bc072" name="fullShop" url="http://localhost">
-        <fileTransfer port="0" mountedRoot="Z:\fullshop" accessType="MOUNT" />
+        <fileTransfer port="0" mountedRoot="Z:\" accessType="MOUNT" />
       </webServer>
     </option>
   </component>
