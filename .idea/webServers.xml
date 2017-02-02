@@ -2,8 +2,10 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="4944f021-07b1-460a-adaa-06177e5bc072" name="fullShop" url="http://localhost">
-        <fileTransfer port="0" mountedRoot="Z:\" accessType="MOUNT" />
+      <webServer id="4944f021-07b1-460a-adaa-06177e5bc072" name="fullShop" url="http://192.168.1.15">
+        <fileTransfer host="192.168.1.15" port="22" accessType="SFTP">
+          <option name="port" value="22" />
+        </fileTransfer>
       </webServer>
     </option>
   </component>
